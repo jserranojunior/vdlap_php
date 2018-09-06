@@ -1,0 +1,489 @@
+.btn-table{
+    
+    padding: 1px 10px! important;
+
+}
+
+span.vertical-middle {
+    vertical-align: -30px! important;
+}
+
+.unidade {
+    float: left;
+    background-color: grey;
+    height: 70px;
+}
+
+
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+    padding: 5px! important;
+    padding-bottom: 5px! important;
+}
+
+
+td>input[type="checkbox"] {
+    margin: 0px 0 0 0! important ;
+}
+input#emitir {
+    margin-top: 41px;
+}
+
+
+
+.table-hover > tbody > tr:hover {
+    background-color: #d9edf7! important;
+}
+
+
+td {
+    font-size: 12px! important;
+    padding: 0px! important;
+}
+
+.padding-zero{
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+
+.float-right{
+float:right;
+}
+
+
+.text-right{
+    text-align: right;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.red{
+    background-color:red;
+}
+
+
+.black{
+    background-color:black;
+}
+
+
+div#removect {
+    float: right;
+    margin-left: 10px;
+}
+
+input.btn.btn-success.excel {
+
+  
+    float: right;
+}
+
+
+div#mini-screen {
+    float: right;
+  margin-left: 10px;
+    display:none;
+
+}
+
+div#full-screen {
+      margin-left: 10px;
+    float: right;
+
+}
+
+
+.ocultar{
+display:none;
+}
+
+
+
+.drop-menu li ul.sub-menu a {
+    padding-left: 0px! important;
+    padding-right: 0px! important;
+        margin-bottom: 0px! important;
+        padding: 11px! important;
+}
+
+
+ul.sub-menu {
+    padding: 1px 1px 1px 2px! important;
+}
+
+
+.panel-body {
+    padding: 5px! important;
+}
+
+
+
+
+button.btn.btn-link.pgcontasapagar {
+    padding: 0px;
+}
+
+
+
+.profile-usertitle-name {
+    text-transform: uppercase;
+}
+
+.profile-userpic img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+
+.flutuanteEmitirPagamento
+{
+
+    position: absolute! important;
+    left: 50%! important;
+    width: 40%! important;
+    margin-top: -700px! important;
+    margin-left: -294px! important;
+    padding: 10px! important;
+}
+
+
+
+
+
+
+
+
+td.td_pequena {
+    width: 1%;
+}
+     /* ORGANIZAR */
+
+
+
+.direita{
+
+    float:right;
+
+}
+
+img.direita.bandeirinha {
+    margin-top: 16px;
+}
+
+div#menu-lateral {
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    z-index: 9998;
+    margin-top: 40px;
+    padding-top: 3px;
+}
+
+
+     /* FORMATAÇÃO BOOTSTRAP */
+     
+      p {
+         margin: 0px! important;
+     }
+     
+     td {
+         font-size: 12px;
+         margin-top: 2px;
+     }
+
+     .input {
+         margin: 0;
+         padding: 0;
+     }
+     form {
+         margin: 0;
+         padding: 0;
+     }
+
+     .thead {
+         color: #fff;
+         background-color: #808080;
+     }
+     .table-striped > tbody > tr:nth-of-type(odd) {
+         background-color: rgb(215, 215, 215)! important;
+     }
+
+    .panel-heading {
+    padding: 0px 15px;
+     }
+
+      /************* INPUT ************/
+     
+     input.input_left {
+         width: 87%;
+         float: left;
+         margin-right: 3px;
+     }
+
+
+     /* NOVOS OBJETOS */
+
+     .btn-invisible {
+cursor:pointer;
+         background-color: rgba(50, 138, 34, 0);
+         color: rgba(50, 138, 34, 0);
+         width: 100%;
+         height: 100%;
+         position: relative;
+         text-decoration: none;
+     }
+     .invisible {
+         text-decoration: none;
+     }
+     
+     p.titulo_branco {
+         margin: -7px 0px! important;
+         padding: 0px;
+     }
+    
+     .foto_funcionario > label {
+         width: 161px;
+     }
+     .foto_funcionario img {
+         background-color: #63C9DE;
+         border-radius: 5%;
+         height: 201px;
+         width: 100%;
+     }
+     td#menor {
+         width: 20px;
+         padding-left: 58px;
+         padding-top: 15px;
+     }
+     .titulo_pure_black {
+         color: #fff;
+         background-color: #000;
+         text-align: center;
+         font-size: 18px;
+     }
+     #funcionando {
+         display: none;
+     }
+     input#enviar_foto {
+         display: none;
+     }
+     .bemvindo {
+         font-size: 50px;
+         text-align: center;
+     }
+     .widcem {
+         width: 100%! important;
+     }
+     .espaco {
+         height: 10%;
+     }
+     .numaior {
+         font-size: 16px;
+     }
+     .centronum {
+         text-align: center;
+     }
+     .bold {
+         font-weight: bold;
+     }
+     
+     .center {
+         text-align: center;
+     }
+
+     
+     /************* LOGO ************/
+     
+.col-md-2.logovdlap {
+    margin-right: 5px! important;
+}
+
+.logo{
+padding-bottom: 0px;
+    width: 90px;
+}
+
+     /************* CORES ************/
+     
+     a.cem:hover{
+            cursor:pointer;
+     }
+     .cem {
+         color: black;
+
+     }
+     span.desativado {
+         color: #e0e0e0;
+     }
+
+     .titulo_branco {
+         color: #fff;
+     }
+     tr.black {
+         background-color: #a1a1a1;
+         ;
+     }
+     .trcolor td {
+         border: 1px solid #fbfcfd! important;
+         background-color: #fbfcfd;
+     }
+     .titulo_azul {
+         color: #4B70FF;
+         text-shadow: 0.1px 1px 0px black;
+         font-size: 20px;
+     }
+     .azulclaro {
+         background-color: rgb(192, 192, 192)!important;
+     }
+     .foto_funcionario img:hover {
+         background-color: #EF2020;
+     }
+     .vermelho {
+         color: #ff0000;
+     }
+     a.preto {
+         font-size: 12px!important;
+         color: #000000!important;
+     }
+     .azul {
+         background-color: rgba(212, 229, 255, 0.19);
+         color: #0883f1;
+     }
+      /************* MENU NOVO ************/
+
+#menu-topo{
+color: rgb(255,255,255);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+         padding-top: 3px! important;
+         padding-bottom: 3px! important;
+         
+         
+    
+             margin-bottom: 5px;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    box-sizing: border-box;
+  
+    }
+    
+
+#ocultar {
+    float: left;
+
+}
+
+#mostrar {
+
+    float: left;
+ 
+    display:none;
+
+}
+
+#mostrar:hover{
+     color: #204d74;
+}
+
+#ocultar:hover{
+     color: #204d74;
+}
+
+
+
+#conteudo {
+    margin-top: 40px;
+    padding-top: 3px;
+  background-color: rgba(198, 237, 255, 0.22)! important;
+}
+     /************* MENU ************/
+     
+menu.navbar-collapse.collapse {
+    margin-top: 11px! important;
+}
+
+
+     .drop-menu {
+         max-height: 100%;
+         padding: 0px;
+     }
+     .drop-menu ul {
+         padding: 0px;
+         position: relative;
+         z-index: 999;
+     }
+     .drop-menu ul li {
+         position: relative;
+         list-style: none;
+
+     }
+     .drop-menu li a {
+         width: 100%;
+     }
+
+     .drop-menu li a {
+    font-weight: bold;
+    box-shadow: 0px 0px 1px #999;
+    border-radius: 1%;
+    display: table;
+    list-style: none outside none;
+    padding: 13px 0 15px 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffff;
+     }
+     .drop-menu > ul > li:last-child a {
+         border-bottom: 1px solid #E0E0E0;
+     }
+     .drop-menu li.active a {} .drop-menu li ul {
+         left: 120%;
+         opacity: 0;
+         visibility: hidden;
+         position: absolute;
+         top: 0;
+         width: 113%;
+         transition: all 0.5s ease 0s;
+         -webkit-transition: all 0.5s ease 0s;
+     }
+     .drop-menu li:hover > ul {
+         opacity: 1;
+         visibility: visible;
+         left: 100%;
+     }
+     /*.drop-menu ul ul:before,*/
+     
+     .drop-menu ul li.menu-item-has-children:after,
+     .drop-menu ul li.page_item_has_children:after {
+         content: ">";
+         display: block;
+         overflow: visible;
+         position: absolute;
+         top: 17px;
+         left: 90%;
+         color: #5c5c5c;
+         font-size: 18px;
+         transform: rotate(90deg);
+         -webkit-transform: rotate(90deg);
+         opacity: 1;
+         font-size: 12px;
+         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5);
+         visibility: visible;
+         transition: all 0.5s ease 0s;
+         -webkit-transition: all 0.5s ease 0s;
+     }
+     .drop-menu ul li.menu-item-has-children:hover:after,
+     .drop-menu ul li.page_item_has_children:hover:after {
+         transform: rotate(0deg);
+         -webkit-transform: rotate(0deg);
+     }
+
+ 
+
+     .tabelaman > tbody > tr > td{
+         font-size: 18px! important;
+     }

@@ -1,0 +1,11 @@
+.panel-portfolio{
+    
+ 
+    overflow: hidden! important;
+    
+}
+img.img-portfolio{
+    width: 100%! important;
+    position:relative! important;
+    height: 230px! important;
+}

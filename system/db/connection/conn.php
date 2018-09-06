@@ -1,5 +1,5 @@
 <?php
-/*
+
 try {
     $conn = new PDO('sqlsrv:Server=localhost;Database=vdlap_novo', 'sa', '@fgh55qdy');
 	$conn->exec("SET CHARACTER SET utf8");

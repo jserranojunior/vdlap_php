@@ -1,0 +1,23 @@
+<?php
+
+class dataAtual {
+    public $dt_atual;
+    public $dt_anterior;
+    public $dt_posterior;
+    public $mes_escrito;
+    
+    function __construct($dt_atual){
+        
+        setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+        date_default_timezone_set('America/Sao_Paulo');
+        
+        $this->dt_atual = $dt_atual;          
+                
+        $this->dt_anterior = date('Y-m-d', strtotime('-1 months', strtotime($dt_atual)));
+        
+        $this->dt_posterior = date('Y-m-d', strtotime('+1 months', strtotime($dt_atual)));
+        
+        $this->mes_escrito = strftime('%B', strtotime($dt_atual));
+                
+    }   
+}

@@ -456,19 +456,15 @@ $data_trava = $conn->query("UPDATE contas_a_pagar SET fim_conta = '$data_atual' 
 }
 
 
-/*
-var_dump("Mes atual " . $soma_mes_atual);
-var_dump("<Br>Mes atual " . $valor_atual);
-echo("<br><br><br>");
-*/
+
+
+
+
+
+
 /* Soma final dos valores */   
 $soma_mes_anterior = $soma_mes_anterior + $valor_anterior;
-if($soma_mes_atual > ''){
 $soma_mes_atual = $soma_mes_atual + $valor_atual;
-}else{
-    $soma_mes_atual = $soma_mes_atual + 0;
-}
-
 }/*FIM OBEJTO FIXO*/
 
 $btn_excluir = '<p class="bold glyphicon glyphicon-remove text-danger" onclick="javascript:excluir'.$id.'();"></p>'
@@ -518,12 +514,7 @@ document.ex<?php echo $id; ?>.submit();}
 
 
 /* Verifica se no mês atual o valor é sete porcento maior ou menor que o anterior */   
-if($valor_anterior > ''){
-    $valor_sete = $valor_anterior * 7 / 100;
-}else{
-    $valor_sete = 0;
-}
-
+$valor_sete = $valor_anterior * 7 / 100;
 $valor_sete = number_format($valor_sete, 2, ',', '.');
 $valor_sete = str_ireplace(".", "", $valor_sete);
 $valor_sete = str_ireplace(",", ".", $valor_sete);
