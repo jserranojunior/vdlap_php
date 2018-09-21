@@ -4,15 +4,9 @@
  
 
 
-try {
-    $connold = new PDO('sqlsrv:Server=smartnew\sqlnewserver;Database=Vdlap', 'sa', '@fgh55qdy');
-	$connold->exec("SET CHARACTER SET utf8");
-    $connold->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
- 
-} catch(PDOException $e) {
-    echo 'ERROR: ' . $e->getMessage();
-}
 
+
+ include("$_SERVER[DOCUMENT_ROOT]/vdlap/_dados/bd/conn.php");
 ?>
 
 <html lang="pt-br">
